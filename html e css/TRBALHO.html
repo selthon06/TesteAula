@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selthon
+    </title>
+</head>
+<body>
+<fieldset>
+    <legend>cadastro do produto."Selthon"</legend>
+<form name="frmExemplo" method="get" action="pagina.php">
+  nome:
+    <input id="txtPrimeiroNome" name="primeiroNome" type="text" placeholder="DIGITE O PRIMEIRO NOME" required size="30">
+   <br> <br>
+    descrição:
+    <br>
+    <br>
+    <textarea id="area" cols="50" rows="4" placeholder=" escreva a descrição do produto" required></textarea>
+    
+    <br><br>
+   selecione a área:
+   <br><br>
+  <select name="grupo">
+       <option value="informatica" selected>informatica</option>
+       <option value="eletrotécnica">eletrotécnica</option>
+
+  </select>
+  <br><br>
+    <label for="txtPrimeiroNome">preço da venda:</label>
+    <input id="txtPrimeiroNome" name="primeiroNome" type="text" placeholder="informe o preço da peça" required size="30">
+    <br>
+    <br>
+    <label for="txtPrimeiroNome">preço de custo:</label>
+    <input id="txtPrimeiroNome" name="primeiroNome" type="text" placeholder="informe o preço de custo" required size="30">
+    <br>
+    <br><br>
+    <input type="checkbox" id="CARRO" name="carro">
+    <label for="carro">controle estoque</label>
+    <br>
+    <input type="checkbox" id="moto" name="moto" >
+    <label for="moto">altera preso durante a venda</label>
+    <br>
+    <input type="checkbox" id="moto" name="moto" >
+    <label for="moto">bloqueia desconto durante a venda</label>
+    <br>
+     <br>
+     <legend>cálculo do pis</legend>
+     <input type="radio" id="ensinoMedio" name="ensino" value="Medio">
+     <label for="ensinoMedio">calcula</label>
+     <br>
+     <input type="radio" id="ensinoSuperior" name="ensino" value="superior">
+     <label for="ensinoSuperior">não calcula</label>
+  <br> <br>
+    <button type="submit">salvar</button>
+    <button type="reset">limpar</button>
+ 
+</fieldset>
+</form>   
+</body>
+</html>

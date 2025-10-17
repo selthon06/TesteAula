@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tela1 - Trabalho do Thiago</title>
+  <link rel="stylesheet" href="tela1.css">
+</head>
+
+<body>
+
+  <div class="topo">
+    <h1>Escola Técnica</h1>
+  </div>
+
+  <div class="menu-lateral">
+    <p>Perfil</p>
+    <p>Vagas</p>
+    <p>Processos</p>
+    <p>Contato</p>
+    <p>Sair</p>
+  </div>
+
+  <div class="conteudo">
+
+    <h2>Se cadastre em nossos cursos</h2>
+
+    <form name="frmExemplo" method="get">
+
+      Nome Completo:
+      <input name="txtNome" type="text" placeholder="Digite o seu nome completo" required>
+
+      Data de Nascimento:
+      <input type="date" name="nascimento">
+
+      CPF:
+      <input name="txtcpf" type="text" placeholder="000.000.000-00" required>
+
+      Gênero:
+      <select name="grupo">
+        <option value="" selected disabled>Selecione</option>
+        <option value="masculino">Masculino</option>
+        <option value="feminino">Feminino</option>
+      </select>
+
+      E-mail:
+      <input name="txtEmail" type="email" placeholder="Digite seu email" required>
+
+      Telefone:
+      <input name="txtTel" type="tel" placeholder="(XX) XXXX XXXXX" required>
+
+      Endereço:
+      <input name="txtEndereco" type="text" placeholder="Digite seu endereço" required>
+
+      Nível de Escolaridade:
+      <select name="escolaridade">
+        <option value="" selected disabled>Selecione</option>
+        <option value="EnsinoFundamental">Ensino Fundamental</option>
+        <option value="EnsinoMédio">Ensino Médio</option>
+        <option value="EnsinoSuperior">Ensino Superior</option>
+        <option value="Pós-Graduação">Pós-Graduação</option>
+        <option value="EducaçãoEspecial">Educação Especial</option>
+        <option value="EducaçãoPTécnica">Educação Profissional Técnica</option>
+      </select>
+
+      Instituição de Ensino:
+      <input name="txtinstituto" type="text" required>
+
+      Curso (se aplicável):
+      <input name="txtcurso" type="text">
+
+      Disponibilidade:
+      <label><input type="checkbox" name="manha"> Manhã</label>
+      <label><input type="checkbox" name="tarde"> Tarde</label>
+      <label><input type="checkbox" name="noite"> Noite</label>
+
+      Por que deseja participar?
+      <textarea cols="50" rows="4" placeholder="Conte-nos um pouco sobre seus objetivos" required></textarea>
+
+      Envie seu currículo (PDF ou DOC):
+      <input type="file" name="arquivoCurriculo">
+
+      <button type="submit">Enviar inscrição</button>
+    </form>
+
+    <div class="caixas-inferiores">
+      <div class="caixa cinza">Como é estudar aqui?</div>
+    </div>
+    <div class="caixas-inferiores">
+      <div class="caixa cinza">Histórias de sucesso</div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

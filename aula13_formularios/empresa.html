@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>selthon</title>
+</head>
+
+<body>
+  <fieldset>
+    <legend>Preecha seu Curriculo abaixo</legend>
+    <form name="frmExemplo" method="get">
+      Nome:
+      <input id="txtNome" name="txtNome" type="text" placeholder="Digite o seu nome completo" required
+        size="30">
+      <br> <br>
+      CPF:
+      <input id="txtcpf" name="txtcpf" type="text" placeholder="000.000.000-00" required
+        size="15">
+      <br> <br>
+      Tel:
+      <input id="txtTEl" name="txtTel" type="tel" placeholder="(55) 67 0000-00000" required
+        size="15">
+        <br><br>
+      <label for="">Estado civil:</label>
+      <br>
+      <select name="grupo">
+        <option value="solteiro">Solteiro(a)</option>
+        <option value="casado">Casado(a)</option>
+        <option value="uniaoestavel">União Estavel</option>
+        <option value="divorciado">Divorciado(a)</option>
+        <option value="viuvo">Viúvo(a)</option>
+        <option value="separado">Separado(a) judicialmente</option>
+
+      </select>
+
+      <br><br>
+      <label for="">Nascimento</label>
+      <br>
+      <input type="date" name="" id="">
+      <br>
+      <br>
+      preencha com sua qualidades:
+      <br>
+      <br>
+      <textarea id="area" cols="50" rows="4" placeholder="Digite suas melhores qualidades aqui." required></textarea>
+
+      <br><br>
+      selecione a área de atuação:
+      <br>
+      <select name="grupo">
+        <option value="informatica">informática</option>
+        <option value="eletrotécnica">Eletrotécnica</option>
+        <option value="eletrotécnica">Agropecuaria</option>
+        <option value="eletrotécnica">Finanças</option>
+        <option value="eletrotécnica">Envestimentos</option>
+
+      </select>
+      <br><br>
+      <label for="">Turno:</label>
+      <br>
+      <input type="checkbox" id="CARRO" name="carro">
+      <label for="carro">Matulino: "6h às 12h"</label>
+      <br>
+      <input type="checkbox" id="moto" name="moto">
+      <label for="moto">Vespertino: "13h às 17h"</label>
+      <br>
+      <input type="checkbox" id="CARRO" name="carro">
+      <label for="carro">Noturno: "18h às 22h</label>
+      <br><br>
+      <legend>Anexar uma foto do RG ou CPF:</legend>
+      <input type="file" id="arquivoRG" name="arquivoRG" value="arquivoRG">
+      <br>
+      <br>
+      <legend>Anexar uma Foto 3x4 sua:</legend>
+      <input type="file" id="arquivoRG" name="arquivoRG" value="arquivoRG">
+      <br> <br>
+      Email:
+      <input id="txtEmail" name="txtEmail" type="text" placeholder="Digite seu email" required
+        size="15">
+      <button type="submit">salvar</button>
+      <button type="reset">limpar</button>
+
+  </fieldset>
+  </form>
+</body>
+
+</html>
